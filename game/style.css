@@ -1,0 +1,85 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.6%;
+  border-radius: 15%;
+  transition: background 0.5s;
+}
+
+a button {
+  background-color: #4caf50; /* warna background */
+  border: none; /* hapus border */
+  color: white; /* warna teks */
+  padding: 12px 24px; /* ukuran padding */
+  text-align: center; /* posisi text di tengah */
+  text-decoration: none; /* hapus underline */
+  display: inline-block; /* display inline */
+  transition-duration: 0.4s; /* durasi transisi */
+  cursor: pointer; /* tampilan kursor saat hover */
+  border-radius: 20px; /* membuat sudut button menjadi bulat */
+
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  background: steelblue;
+  color: white;
+  line-height: 1.1;
+  font-weight: normal;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+#colorDisplay {
+  font-size: 250%;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+#stripe {
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+
+.selected {
+  color: white;
+  background: steelblue;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: 30px;
+  transition: all 0.3s;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background: steelblue;
+}
